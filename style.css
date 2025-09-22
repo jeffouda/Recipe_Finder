@@ -16,4 +16,31 @@ body {
 
 header {
   text-align: center;
+  margin-bottom: 2rem;
 }
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+#search-input {
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+#search-form button {
+  padding: 0.5rem 1rem;
+  background-color: #0892b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-form button:hover {
+  background-color: #ff7033;
+}
+
+/* section */
