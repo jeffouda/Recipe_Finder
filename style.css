@@ -95,4 +95,40 @@ h2 {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#details-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+#close-details {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgb(173, 46, 71);
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border: radius 4px;
+  cursor: pointer;
+}
+
+#close-details:hover {
+  background: darkred;
+}
+
+/* utility classes */
+
+.hidden {
+  display: none;
 }
