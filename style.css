@@ -1,4 +1,3 @@
-/*browser default*/
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +11,8 @@ body {
   line-height: 1.6;
   padding: 1rem;
 }
-/*header*/
 
+/* header */
 header {
   text-align: center;
   margin-bottom: 2rem;
@@ -35,16 +34,15 @@ header h1 {
   background-color: #0892b8;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 #search-form button:hover {
-  background-color: #ff7033;
+  background-color: #533f36;
 }
 
 /* section */
-
 main section {
   margin-bottom: 2rem;
 }
@@ -54,8 +52,7 @@ h2 {
 }
 
 /* recipe grid */
-
-.recipe-card {
+#recipes-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
@@ -87,48 +84,33 @@ h2 {
 }
 
 /* recipe details */
-
 #recipe-details {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
+  position: static;
+  width: 100%;
+  background: #fff;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #details-content {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  max-width: 600px;
-  width: 90%;
-  max-height: 80vh;
-  overflow-y: auto;
+  margin-top: 1rem;
+  line-height: 1.6;
 }
 
 #close-details {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: rgb(173, 46, 71);
+  display: block;
+  margin-left: auto;
+  background: maroon;
   color: white;
   border: none;
-  padding: 0.3rem 0.8rem;
-  border: radius 4px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 #close-details:hover {
-  background: darkred;
-}
-
-/* utility classes */
-
-.hidden {
-  display: none;
+  background: rgb(233, 34, 34);
 }
