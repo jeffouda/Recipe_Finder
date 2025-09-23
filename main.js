@@ -12,4 +12,10 @@ const recipesList = document.getElementById("recipes-list");
 function renderRecipeCard(recipe) {
   const card = document.createElement("div");
   card.classList.add("recipe-card");
+
+  card.innerHTML = `<img src="${recipe.image}" alt="${recipe.name}">
+    <h3>${recipe.name}</h3>`;
+
+  recipesList.appendChild(card);
 }
+renderRecipeCard(recipe);
