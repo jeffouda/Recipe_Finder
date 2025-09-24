@@ -6,3 +6,30 @@ const closeBtn = document.getElementById("close-details");
 const favoritesList = document.getElementById("favorites-list");
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
+
+let recipes = [];
+let favorites = [];
+
+// fetch from jsno-server
+
+fetch("http://localhost:3000/recipes")
+  .then((res) => res.json())
+  .then((data) => {
+    recipes = data;
+    renderRecipes(recipes);
+  })
+  .catch((err) => console.error("error fetching recipes:", err));
+
+//recipe cards
+
+function renderRecipes(list) {
+  recipesList.innerHTML = "";
+  list.forEach((recipe) => {
+    const card = document.createElement("div");
+    card.classList.add("recipe-card");
+    card.innerHTML = `
+      <img src="${recipe.image}" alt="${recipe.name}">
+      <h3>${recipe.name}<h3>`;
+    card.addEventListener("click", () => showRecipeDetails(recipe));
+  });
+}
