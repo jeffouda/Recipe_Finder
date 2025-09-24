@@ -40,8 +40,56 @@ function renderRecipes(list) {
 function showRecipeDetails(recipe) {
   detailsBody.innerHTML = `<h2>${recipe.name}</h2>
   <img src="${recipe.image}" alt="${recipe.name} class="details-img">
+  <h3>Ingredients:</h3>
+    <ul>${recipe.ingredients.map((ing) => `<li>${ing}</li>`).join("")}</ul>
+
   <h3>Instructions:</h3>
   <p>${recipe.instructions}</p>
      <button id="add-favorite">Add to Favorites</button> `;
   detailsSection.classList.remove("hidden");
+
+  //favorite button
+
+  document.getElementById("add-favorite").addEventListener("click", () => {
+    if (!favorites.some((fav) => fav.id === recipe.id)) {
+      favorites.push(recipe);
+      renderFavorites();
+    }
+  });
 }
+
+//close button
+
+closeBtn.addEventListener("click", () => {
+  detailsSection.classList.add("hidden");
+});
+
+//render favorites
+
+function renderFavorites() {
+  favoritesList.innerHTML = "";
+  favorites.forEach((recipe) => {
+    const card = document.createElement("div");
+    card.classList.add("recipe-card");
+    card.innerHTML = `<img src="${recipe.image}" alt="${recipe.name}">
+     <button class="remove-favorite">Remove</button>`;
+    card.querySelector(".remove-favorite").addEventListener("click", () => {
+      favorites = favorites.filter((fav) => fav.id !== recipe.id);
+      renderFavorites();
+    });
+    favoritesList.appendChild(card);
+  });
+}
+
+//search/filter
+
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const query = searchInput.value.toLowerCase();
+  const filtered = recipes.filter(
+    (r) =>
+      r.name.toLowerCase().includes(query) ||
+      r.ingredients.some((i) => i.toLowerCase().includes(query))
+  );
+  renderRecipes(filtered);
+});

@@ -5,18 +5,79 @@
       "name": "Spanish Chorizo and Potato Stew",
       "image": "https://foodandjourneys.net/wp-content/uploads/2022/10/Spanish-Chorizo-and-Potato-Stew-PIC1-1024x1536.jpg",
       "ingredients": [
-        "chorizo",
-        "onion",
-        "garlic",
-        "smorked paprika",
-        "salt",
-        "potatoes",
-        "bell pepper",
-        "stock",
-        "olive oil"
+        "Chorizo",
+        "Onion",
+        "Garlic",
+        "Smoked paprika",
+        "Salt",
+        "Potatoes",
+        "Bell pepper",
+        "Stock",
+        "Olive oil"
       ],
-
-      "instructions": "Heat olive oil,Add chopped onion,Add garlic and chorizo,Add bell pepper & potatoes,Mix & cook for five to ten minutes."
+      "instructions": "Heat olive oil, add chopped onion, garlic, and chorizo. Stir in bell pepper & potatoes. Season with smoked paprika, salt, and pour in stock. Simmer until potatoes are tender."
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Parmesan cheese",
+        "Pancetta",
+        "Black pepper"
+      ],
+      "instructions": "Cook spaghetti until al dente. Fry pancetta until crispy. Whisk eggs with Parmesan. Combine pasta, pancetta, and egg mixture off heat. Season with black pepper."
+    },
+    {
+      "id": 3,
+      "name": "Chicken Curry",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg",
+      "ingredients": [
+        "Chicken pieces",
+        "Onions",
+        "Garlic",
+        "Ginger",
+        "Curry powder",
+        "Coconut milk",
+        "Tomatoes",
+        "Oil",
+        "Salt"
+      ],
+      "instructions": "Heat oil, sauté onions, garlic, and ginger. Add curry powder and tomatoes. Stir in chicken and cook until browned. Pour coconut milk and simmer until chicken is fully cooked."
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir Fry",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2020/03/Vegetable-Stir-Fry_3-SQ.jpg",
+      "ingredients": [
+        "Broccoli",
+        "Carrots",
+        "Bell peppers",
+        "Soy sauce",
+        "Garlic",
+        "Ginger",
+        "Sesame oil"
+      ],
+      "instructions": "Heat sesame oil in a wok. Add garlic and ginger, then toss in vegetables. Stir fry for 3–5 minutes. Add soy sauce and cook until veggies are tender-crisp."
+    },
+    {
+      "id": 5,
+      "name": "Beef Tacos",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2019/01/Beef-Tacos.jpg",
+      "ingredients": [
+        "Ground beef",
+        "Onion",
+        "Garlic",
+        "Taco seasoning",
+        "Tortillas",
+        "Lettuce",
+        "Tomatoes",
+        "Cheese",
+        "Sour cream"
+      ],
+      "instructions": "Cook beef with onion and garlic. Stir in taco seasoning. Serve in warm tortillas with lettuce, tomatoes, cheese, and sour cream."
     }
   ]
 }
