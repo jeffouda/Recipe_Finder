@@ -29,8 +29,19 @@ function renderRecipes(list) {
     card.classList.add("recipe-card");
     card.innerHTML = `
       <img src="${recipe.image}" alt="${recipe.name}">
-      <h3>${recipe.name}<h3>`;
+      <h3>${recipe.name}</h3>`;
     card.addEventListener("click", () => showRecipeDetails(recipe));
     recipesList.appendChild(card);
   });
+}
+
+//recipe details
+
+function showRecipeDetails(recipe) {
+  detailsBody.innerHTML = `<h2>${recipe.name}</h2>
+  <img src="${recipe.image}" alt="${recipe.name} class="details-img">
+  <h3>Instructions:</h3>
+  <p>${recipe.instructions}</p>
+     <button id="add-favorite">Add to Favorites</button> `;
+  detailsSection.classList.remove("hidden");
 }

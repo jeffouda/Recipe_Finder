@@ -112,6 +112,13 @@ header h1 {
 #close-details:hover {
   background: darkred;
 }
+.details-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
 
 /* Utility */
 .hidden {
