@@ -12,7 +12,7 @@ let favorites = [];
 
 // fetch from jsno-server
 
-fetch("http://localhost:3000/recipes")
+fetch("http://localhost:5000/recipes")
   .then((res) => res.json())
   .then((data) => {
     recipes = data;
@@ -31,5 +31,6 @@ function renderRecipes(list) {
       <img src="${recipe.image}" alt="${recipe.name}">
       <h3>${recipe.name}<h3>`;
     card.addEventListener("click", () => showRecipeDetails(recipe));
+    recipesList.appendChild(card);
   });
 }

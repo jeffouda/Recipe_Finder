@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spanish Chorizo and Potato Stew",
+      "image": "https://foodandjourneys.net/wp-content/uploads/2022/10/Spanish-Chorizo-and-Potato-Stew-PIC1-1024x1536.jpg",
+      "ingredients": [
+        "chorizo",
+        "onion",
+        "garlic",
+        "smorked paprika",
+        "salt",
+        "potatoes",
+        "bell pepper",
+        "stock",
+        "olive oil"
+      ],
+
+      "instructions": "Heat olive oil,Add chopped onion,Add garlic and chorizo,Add bell pepper & potatoes,Mix & cook for five to ten minutes."
+    }
+  ]
+}
