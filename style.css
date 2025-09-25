@@ -126,6 +126,42 @@ header h1 {
   margin: 2px;
   font-size: 20px;
 }
+#feedback-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#feedback-form input,
+#feedback-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 500px;
+}
+
+#feedback-form button {
+  padding: 0.6rem;
+  background: #0892b8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#feedback-form button:hover {
+  background: #066f8a;
+}
 
 /* Utility */
 .hidden {
