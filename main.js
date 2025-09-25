@@ -6,6 +6,10 @@ const closeBtn = document.getElementById("close-details");
 const favoritesList = document.getElementById("favorites-list");
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
+//change
+const feedbackForm = document.getElementById("feedback-form");
+const usernameInput = document.getElementById("username");
+const messageInput = document.getElementById("message");
 
 let recipes = [];
 let favorites = [];
@@ -92,4 +96,16 @@ searchForm.addEventListener("submit", (e) => {
       r.ingredients.some((i) => i.toLowerCase().includes(query))
   );
   renderRecipes(filtered);
+});
+
+feedbackForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const username = usernameInput.value.trim();
+  const message = messageInput.value.trim();
+
+  if (!username || !message) {
+    alert("please fill in all fields before submitting");
+    return;
+  }
 });
