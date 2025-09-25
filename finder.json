@@ -2,82 +2,182 @@
   "recipes": [
     {
       "id": 1,
-      "name": "Spanish Chorizo and Potato Stew",
-      "image": "https://foodandjourneys.net/wp-content/uploads/2022/10/Spanish-Chorizo-and-Potato-Stew-PIC1-1024x1536.jpg",
+      "name": "Chicken & Bean Stew",
       "ingredients": [
-        "Chorizo",
-        "Onion",
-        "Garlic",
-        "Smoked paprika",
-        "Salt",
-        "Potatoes",
-        "Bell pepper",
-        "Stock",
-        "Olive oil"
+        "1 lb boneless chicken, cubed",
+        "1 onion, chopped",
+        "2 garlic cloves, minced",
+        "1 tomato, chopped",
+        "Juice of ½ lime",
+        "¼ cup cilantro, chopped",
+        "1 Tbsp basil, chopped",
+        "2 cans great northern beans, drained",
+        "2 Tbsp oil",
+        "4 cups chicken broth",
+        "1½ tsp chili powder",
+        "1½ tsp cumin",
+        "½ tsp oregano",
+        "¼ tsp salt & pepper",
+        "Optional: red pepper flakes"
       ],
-      "instructions": "Heat olive oil, add chopped onion, garlic, and chorizo. Stir in bell pepper & potatoes. Season with smoked paprika, salt, and pour in stock. Simmer until potatoes are tender."
+      "instructions": "Sauté onion and garlic in oil. Add chicken, beans, broth, tomato, lime juice, herbs, and spices. Bring to a boil, then simmer 1 hour. Top with red pepper flakes if desired.",
+      "image": "https://i.pinimg.com/736x/b7/b3/32/b7b3329c6c3b11da0d7ac3f7a02abd22.jpg"
     },
     {
       "id": 2,
-      "name": "Spaghetti Carbonara",
-      "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+      "name": "Vegetable Stir-Fry",
       "ingredients": [
-        "Spaghetti",
-        "Eggs",
-        "Parmesan cheese",
-        "Pancetta",
-        "Black pepper"
+        "2 cups mixed vegetables (broccoli, bell pepper, carrot)",
+        "2 Tbsp soy sauce",
+        "1 Tbsp sesame oil",
+        "1 garlic clove, minced",
+        "1 tsp ginger, grated"
       ],
-      "instructions": "Cook spaghetti until al dente. Fry pancetta until crispy. Whisk eggs with Parmesan. Combine pasta, pancetta, and egg mixture off heat. Season with black pepper."
+      "instructions": "Heat oil in a wok, add garlic and ginger. Stir-fry vegetables 5–7 minutes. Add soy sauce, toss, and serve hot.",
+      "image": "https://i.pinimg.com/1200x/11/07/0e/11070ec794f07edf9641695610cad1f6.jpg"
     },
     {
       "id": 3,
-      "name": "Chicken Curry",
-      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg",
+      "name": "Fruit Salad",
       "ingredients": [
-        "Chicken pieces",
-        "Onions",
-        "Garlic",
-        "Ginger",
-        "Curry powder",
-        "Coconut milk",
-        "Tomatoes",
-        "Oil",
-        "Salt"
+        "1 cup strawberries, sliced",
+        "1 cup pineapple, diced",
+        "1 cup mango, diced",
+        "Juice of 1 lime",
+        "1 Tbsp honey",
+        "Fresh mint leaves"
       ],
-      "instructions": "Heat oil, sauté onions, garlic, and ginger. Add curry powder and tomatoes. Stir in chicken and cook until browned. Pour coconut milk and simmer until chicken is fully cooked."
+      "instructions": "Mix fruits in a bowl. Whisk lime juice and honey, pour over fruits, toss gently, and garnish with mint.",
+      "image": "https://i.pinimg.com/736x/5c/27/a1/5c27a1ae56dcfbd88e635c5e46a8637b.jpg"
     },
     {
       "id": 4,
-      "name": "Vegetable Stir Fry",
-      "image": "https://www.recipetineats.com/wp-content/uploads/2020/03/Vegetable-Stir-Fry_3-SQ.jpg",
+
+      "name": "Tomato Basil Soup",
       "ingredients": [
-        "Broccoli",
-        "Carrots",
-        "Bell peppers",
-        "Soy sauce",
-        "Garlic",
-        "Ginger",
-        "Sesame oil"
+        "4 ripe tomatoes, chopped",
+        "1 onion, chopped",
+        "2 garlic cloves, minced",
+        "2 cups vegetable broth",
+        "2 Tbsp olive oil",
+        "¼ cup fresh basil, chopped",
+        "Salt & pepper to taste"
       ],
-      "instructions": "Heat sesame oil in a wok. Add garlic and ginger, then toss in vegetables. Stir fry for 3–5 minutes. Add soy sauce and cook until veggies are tender-crisp."
+      "instructions": "Sauté onion & garlic in olive oil. Add tomatoes & broth, simmer 20 mins. Blend until smooth, stir in basil, season to taste.",
+      "image": "https://i.pinimg.com/1200x/e6/06/ca/e606ca1a44779f742b405ad496aed4f1.jpg"
     },
     {
       "id": 5,
-      "name": "Beef Tacos",
-      "image": "https://www.recipetineats.com/wp-content/uploads/2019/01/Beef-Tacos.jpg",
+
+      "name": "Grilled Lemon Herb Chicken",
       "ingredients": [
-        "Ground beef",
-        "Onion",
-        "Garlic",
-        "Taco seasoning",
-        "Tortillas",
-        "Lettuce",
-        "Tomatoes",
-        "Cheese",
-        "Sour cream"
+        "1 lb boneless chicken breasts",
+        "Juice of 1 lemon",
+        "2 Tbsp olive oil",
+        "2 garlic cloves, minced",
+        "1 tsp dried oregano",
+        "Salt & pepper to taste"
       ],
-      "instructions": "Cook beef with onion and garlic. Stir in taco seasoning. Serve in warm tortillas with lettuce, tomatoes, cheese, and sour cream."
+      "instructions": "Marinate chicken with lemon juice, oil, garlic, oregano, salt & pepper for 30 mins. Grill 5–6 mins per side until cooked through.",
+      "image": "https://i.pinimg.com/1200x/f6/3d/04/f63d040fdf2cbf198cba57b564c05cee.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Classic Beef Stew",
+      "ingredients": [
+        "2 lbs beef chuck, cubed",
+        "3 carrots, sliced",
+        "3 potatoes, cubed",
+        "2 celery stalks, sliced",
+        "1 onion, chopped",
+        "3 cups beef broth",
+        "2 Tbsp tomato paste",
+        "2 Tbsp flour",
+        "2 Tbsp oil",
+        "2 tsp thyme",
+        "2 bay leaves",
+        "Salt & pepper to taste"
+      ],
+      "instructions": "Brown beef in oil, sprinkle with flour. Add onion, tomato paste, broth, herbs, and veggies. Simmer 2 hrs until beef is tender and sauce is thick.",
+      "image": "https://i.pinimg.com/1200x/ea/d1/c7/ead1c76b1cc1c1f2a389244ac45378e4.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mango Banana Smoothie",
+      "ingredients": [
+        "1 ripe mango, peeled & chopped",
+        "1 banana, sliced",
+        "1 cup milk (or almond milk)",
+        "½ cup yogurt",
+        "1 Tbsp honey",
+        "Ice cubes"
+      ],
+      "instructions": "Blend mango, banana, milk, yogurt, honey, and ice until smooth. Serve chilled.",
+      "image": "https://i.pinimg.com/1200x/3c/33/ca/3c33ca19d9da04a937723040e46705e3.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Virgin Mojito",
+      "ingredients": [
+        "10 fresh mint leaves",
+        "1 lime, cut into wedges",
+        "1 Tbsp sugar",
+        "1 cup soda water",
+        "Ice cubes"
+      ],
+      "instructions": "Muddle mint, lime, and sugar in a glass. Fill with ice, top with soda water, and stir.",
+      "image": "https://i.pinimg.com/736x/73/58/ee/7358eeff45e0b81521ea23b0b84c4f23.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Lemon Iced Tea",
+      "ingredients": [
+        "4 black tea bags",
+        "4 cups water",
+        "¼ cup sugar (optional)",
+        "Juice of 1 lemon",
+        "Ice cubes"
+      ],
+      "instructions": "Steep tea bags in hot water 5 mins. Remove bags, stir in sugar & lemon juice. Chill, then serve over ice.",
+      "image": "https://i.pinimg.com/1200x/e1/fa/86/e1fa86de85419f82771d1d54abe05f5d.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Whiskey Sour",
+      "ingredients": [
+        "2 oz whiskey",
+        "¾ oz lemon juice",
+        "½ oz simple syrup",
+        "Ice cubes"
+      ],
+      "instructions": "Shake whiskey, lemon juice, and syrup with ice. Strain into a glass with ice.",
+      "image": "https://i.pinimg.com/736x/86/bf/96/86bf969996640866417ee1a86ae85025.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Classic Margarita",
+      "ingredients": [
+        "2 oz tequila",
+        "1 oz triple sec",
+        "1 oz lime juice",
+        "Salt for rim",
+        "Ice cubes"
+      ],
+      "instructions": "Shake tequila, triple sec, and lime juice with ice. Strain into a salt-rimmed glass over ice.",
+      "image": "https://i.pinimg.com/1200x/a4/ca/76/a4ca766d4c2c17b2d6319a6af097e996.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Cosmopolitan",
+      "ingredients": [
+        "1½ oz vodka",
+        "1 oz cranberry juice",
+        "½ oz triple sec",
+        "½ oz lime juice",
+        "Ice cubes"
+      ],
+      "instructions": "Shake vodka, cranberry, triple sec, and lime juice with ice. Strain into a cocktail glass.",
+      "image": "https://i.pinimg.com/736x/c2/33/e2/c233e284b5dd99d57f95a73d5523a259.jpg"
     }
   ]
 }
