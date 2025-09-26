@@ -52,7 +52,6 @@
     },
     {
       "id": 4,
-
       "name": "Tomato Basil Soup",
       "ingredients": [
         "4 ripe tomatoes, chopped",
@@ -68,7 +67,6 @@
     },
     {
       "id": 5,
-
       "name": "Grilled Lemon Herb Chicken",
       "ingredients": [
         "1 lb boneless chicken breasts",
@@ -178,6 +176,35 @@
       ],
       "instructions": "Shake vodka, cranberry, triple sec, and lime juice with ice. Strain into a cocktail glass.",
       "image": "https://i.pinimg.com/736x/c2/33/e2/c233e284b5dd99d57f95a73d5523a259.jpg"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 9,
+      "name": "Classic Margarita",
+      "ingredients": [
+        "2 oz tequila",
+        "1 oz triple sec",
+        "1 oz lime juice",
+        "Salt for rim",
+        "Ice cubes"
+      ],
+      "instructions": "Shake tequila, triple sec, and lime juice with ice. Strain into a salt-rimmed glass over ice.",
+      "image": "https://i.pinimg.com/1200x/a4/ca/76/a4ca766d4c2c17b2d6319a6af097e996.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mango Banana Smoothie",
+      "ingredients": [
+        "1 ripe mango, peeled & chopped",
+        "1 banana, sliced",
+        "1 cup milk (or almond milk)",
+        "½ cup yogurt",
+        "1 Tbsp honey",
+        "Ice cubes"
+      ],
+      "instructions": "Blend mango, banana, milk, yogurt, honey, and ice until smooth. Serve chilled.",
+      "image": "https://i.pinimg.com/1200x/3c/33/ca/3c33ca19d9da04a937723040e46705e3.jpg"
     }
   ]
 }

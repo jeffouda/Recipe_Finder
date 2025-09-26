@@ -10,6 +10,7 @@ body {
   color: #333;
   padding: 1rem;
   line-height: 1.6;
+  background: url(https://i.pinimg.com/736x/ff/d6/a3/ffd6a35625254ce4b6fd902e1084a7b0.jpg);
 }
 
 header {
@@ -129,7 +130,7 @@ header h1 {
 #feedback-section {
   margin-top: 2rem;
   padding: 1rem;
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
   border-radius: 8px;
   text-align: center;
 }
