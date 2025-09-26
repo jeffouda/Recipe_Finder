@@ -9,6 +9,7 @@ const searchInput = document.getElementById("search-input");
 const feedbackForm = document.getElementById("feedback-form");
 const usernameInput = document.getElementById("username");
 const messageInput = document.getElementById("message");
+const homeBtn = document.getElementById("home-btn");
 
 let recipes = [];
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
@@ -96,7 +97,15 @@ function renderFavorites() {
 function saveFavorites() {
   localStorage.setItem("favorites", JSON.stringify(favorites));
 }
+//home button
 
+homeBtn.addEventListener("click", () => {
+  detailsSection.classList.add("hidden");
+
+  searchInput.value = "";
+
+  renderRecipes(recipes);
+});
 // Search/filter recipes
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();

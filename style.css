@@ -39,6 +39,11 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#home-btn:hover {
+  background-color: #533f36;
+  color: white;
+}
 #search-input {
   padding: 0.5rem;
   width: 250px;
