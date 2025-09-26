@@ -18,21 +18,24 @@ header {
   margin-bottom: 2rem;
 }
 
-header h1 {
+header h1,
+h2 {
   margin-bottom: 1rem;
+  font-size: 50px;
+  color: white;
 }
 
 #search-input {
   padding: 0.5rem;
   width: 250px;
-  border: 1px solid green;
-  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 #search-form button {
   padding: 0.5rem 1rem;
   background-color: #0892b8;
-  color: white;
+  color: #333333;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -40,6 +43,7 @@ header h1 {
 
 #search-form button:hover {
   background-color: #533f36;
+  color: white;
 }
 
 .recipe-grid {
@@ -49,7 +53,7 @@ header h1 {
 }
 
 .recipe-card {
-  background: white;
+  background: rgb(196, 188, 188);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -83,12 +87,11 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 }
 
 #details-content {
   position: relative;
-  background: white;
+  background: rgb(189, 178, 178);
   padding: 20px;
   border-radius: 8px;
   max-width: 600px;
@@ -126,17 +129,24 @@ header h1 {
   padding: 2px;
   margin: 2px;
   font-size: 20px;
+  color: beige;
+}
+
+.remove-favorite {
+  background: rgb(216, 29, 29);
+  color: silver;
+  padding: 2px;
 }
 #feedback-section {
   margin-top: 2rem;
   padding: 1rem;
-  /*background: #f8f8f8;*/
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 8px;
   text-align: center;
 }
 
 .fed {
-  color: yello;
+  color: yellowgreen;
 }
 
 #feedback-form {

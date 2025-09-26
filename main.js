@@ -19,7 +19,7 @@ fetch("http://localhost:5000/recipes")
   .then((data) => {
     recipes = data;
     renderRecipes(recipes);
-    renderFavorites(); // render stored favorites
+    renderFavorites();
   })
   .catch((err) => console.error("Error fetching recipes:", err));
 
